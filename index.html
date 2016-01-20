@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>React Stopwatch</title>
+        <script src="https://fb.me/react-0.14.6.min.js"></script>
+        <script src="https://fb.me/react-dom-0.14.6.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.23/browser.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono" rel="stylesheet" type="text/css">
+        <style>
+            body {
+                background: linear-gradient(to bottom, #006363, #034569);
+                height: 100vh;
+                overflow: hidden;
+                padding: 0px;
+                margin: 0px;
+                text-align: center;
+                font-family: 'Share Tech Mono';
+                color: #fff;
+            }
+            p {
+                font-size: 10em;
+                height: .2em;
+            }
+            button {
+                background-color: rgba(0,0,0,0);;
+                color: #fff;
+                font-family: 'Share Tech Mono';
+                font-size: 2em;
+                border: 2px solid #fff;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 20px;
+            }
+            button:hover {
+                background-color: #009999;
+            }
+            button:focus {
+                outline: none;
+            }
+        </style>
+    </head>
+    <body>
+        <div id='app'></div>
+        <script type="text/babel" src="js.jsx"></script>
+    </body>
+</html>
